@@ -1,4 +1,6 @@
 {
   "project_name": "Project",
-  "src_name": "src"
+  "src_name": "src",
+  "author_name": "Author",
+  "author_email": "a@b.com"
 }

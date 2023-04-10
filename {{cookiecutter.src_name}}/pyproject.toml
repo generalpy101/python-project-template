@@ -14,11 +14,11 @@ exclude = '''
 '''
 
 [project]
-name = "module_name"
+name = "{{ cookiecutter.project_name }}"
 description = "Module description"
 version = "1.0.0"
 authors = [
-  { name = "generalpy", email = "yogipra2003@gmail.com"}
+  { name = "{{ cookiecutter.author_name }}", email = "{{ cookiecutter.author_email }}"}
 ]
 
 [project.optional-dependencies]
