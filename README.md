@@ -2,27 +2,21 @@
 
 This is a template which I intend to use in my Python projects.
 
-Its directory structure is:
+Final directory structure will be:
 
 ```bash
-.
-├── .gitignore
-├── .isort.cfg
-├── .pre-commit-config.yaml
-├── .pylintrc
-├── README.md
-├── init_hooks.sh
-├── lint.py
-├── pyproject.toml
-├── src
-│   ├── __init__.py
-│   ├── main.py
-└── tests
-    └── test_pass.py
+{{cookiecutter.src_name}}
+    ├── init_hooks.sh
+    ├── lint.py
+    ├── pyproject.toml
+    ├── tests
+    │   └── test_pass.py
+    └── {{cookiecutter.project_name}}
+        ├── __init__.py
+        └── main.py
 ```
 
-`src` contains main code of the application, `tests` contains tests.
-
+`{{cookiecutter.src_name}}` will be replaced by the name you provide to your source directory. `{{cookiecutter.project_name}}` will be replaced by your project name. `tests` contains tests for your code.
 
 ## Installation
 
